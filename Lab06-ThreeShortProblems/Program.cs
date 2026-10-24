@@ -29,9 +29,42 @@ while (choice < MinMenuChoice || choice > MaxMenuChoice)
     choice = Convert.ToInt32(Console.ReadLine());
 }
 
+// Exercise 1: The Grade Checker
 if (choice == 1 || choice == 4)
 {
-    // Exercise 1 placeholder
+    Console.WriteLine("=== Exercise 1: The Grade Checker ===");
+    Console.Write("Score: ");
+    int score = Convert.ToInt32(Console.ReadLine());
+
+    // while: the number of repeats is unknown before the loop starts because a user could enter valid input immediately or invalid input multiple times.
+    while (score < 0 || score > 100)
+    {
+        Console.WriteLine("A score must be between 0 and 100.");
+        Console.Write("Score: ");
+        score = Convert.ToInt32(Console.ReadLine());
+    }
+
+    // Top-to-bottom decision chain so higher thresholds take priority
+    if (score >= 90)
+    {
+        Console.WriteLine($"{score} earns an A.");
+    }
+    else if (score >= 80)
+    {
+        Console.WriteLine($"{score} earns a B.");
+    }
+    else if (score >= 70)
+    {
+        Console.WriteLine($"{score} earns a C.");
+    }
+    else if (score >= 60)
+    {
+        Console.WriteLine($"{score} earns a D.");
+    }
+    else
+    {
+        Console.WriteLine($"{score} earns an F.");
+    }
 }
 
 if (choice == 2 || choice == 4)

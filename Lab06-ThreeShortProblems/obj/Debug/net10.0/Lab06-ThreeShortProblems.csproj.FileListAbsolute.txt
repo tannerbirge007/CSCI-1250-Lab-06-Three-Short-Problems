@@ -12,3 +12,4 @@ C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Sh
 C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.pdb
 C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.genruntimeconfig.cache
 C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\ref\Lab06-ThreeShortProblems.dll
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.sourcelink.json
