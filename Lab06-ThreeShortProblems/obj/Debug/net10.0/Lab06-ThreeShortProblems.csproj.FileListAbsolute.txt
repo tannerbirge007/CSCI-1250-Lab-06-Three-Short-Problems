@@ -1,0 +1,14 @@
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\bin\Debug\net10.0\Lab06-ThreeShortProblems.exe
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\bin\Debug\net10.0\Lab06-ThreeShortProblems.deps.json
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\bin\Debug\net10.0\Lab06-ThreeShortProblems.runtimeconfig.json
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\bin\Debug\net10.0\Lab06-ThreeShortProblems.dll
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\bin\Debug\net10.0\Lab06-ThreeShortProblems.pdb
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.AssemblyInfoInputs.cache
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.AssemblyInfo.cs
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.csproj.CoreCompileInputs.cache
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.dll
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\refint\Lab06-ThreeShortProblems.dll
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.pdb
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\Lab06-ThreeShortProblems.genruntimeconfig.cache
+C:\Users\tanne\OneDrive\Documents\CSCI1250-Programming\CSCI-1250-Lab-06-Three-Short-Problems\Lab06-ThreeShortProblems\obj\Debug\net10.0\ref\Lab06-ThreeShortProblems.dll
