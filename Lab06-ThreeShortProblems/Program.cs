@@ -11,6 +11,8 @@
 const int RandomSeed = 4000;
 const int MinMenuChoice = 1;
 const int MaxMenuChoice = 5;
+const int PassingScore = 60;
+const int NumberOfScores = 5;
 
 // Single seeded Random instance created once above the loops
 Random rng = new Random(RandomSeed);
@@ -89,7 +91,6 @@ if (choice == 2 || choice == 4)
 
         Console.Write($"Roll {rollCount}: {die1} and {die2}, total {total}.");
 
-        // Specific snake eyes condition checked before general doubles
         if (die1 == 1 && die2 == 1)
         {
             Console.WriteLine(" Snake eyes.");
@@ -120,7 +121,45 @@ if (choice == 2 || choice == 4)
     Console.WriteLine($"You rolled {rollCount} times and won {winCount}.");
 }
 
+// Exercise 3: The Score Report
 if (choice == 3 || choice == 4)
 {
-    // Exercise 3 placeholder
+    Console.WriteLine("=== Exercise 3: The Score Report ===");
+
+    int[] scores = new int[NumberOfScores];
+
+    // for: the prompt has to say which score this is, so the position in the array is part of what the loop needs.
+    for (int i = 0; i < scores.Length; i++)
+    {
+        Console.Write($"Score {i + 1}: ");
+        scores[i] = Convert.ToInt32(Console.ReadLine());
+    }
+
+    int total = 0;
+    int highest = scores[0];
+    int passingCount = 0;
+
+    // foreach: adding up, comparing, and counting need every value and no position whatsoever.
+    foreach (int s in scores)
+    {
+        total += s;
+
+        if (s > highest)
+        {
+            highest = s;
+        }
+
+        if (s >= PassingScore)
+        {
+            passingCount++;
+        }
+    }
+
+    double average = (double)total / scores.Length;
+
+    Console.WriteLine($"Scores entered: {scores.Length}");
+    Console.WriteLine($"Total: {total}");
+    Console.WriteLine($"Average: {average:F1}");
+    Console.WriteLine($"Highest: {highest}");
+    Console.WriteLine($"Passing: {passingCount} of {scores.Length}");
 }
