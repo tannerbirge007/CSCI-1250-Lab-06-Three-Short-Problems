@@ -8,8 +8,12 @@
  *              practices decisions and one of the four loops. 
  */
 
+const int RandomSeed = 4000;
 const int MinMenuChoice = 1;
 const int MaxMenuChoice = 5;
+
+// Single seeded Random instance created once above the loops
+Random rng = new Random(RandomSeed);
 
 // The Menu: prints the menu once and validates the user's choice
 Console.WriteLine("=== CSCI 1250 Lab 06 ===");
@@ -44,7 +48,6 @@ if (choice == 1 || choice == 4)
         score = Convert.ToInt32(Console.ReadLine());
     }
 
-    // Top-to-bottom decision chain so higher thresholds take priority
     if (score >= 90)
     {
         Console.WriteLine($"{score} earns an A.");
@@ -67,9 +70,54 @@ if (choice == 1 || choice == 4)
     }
 }
 
+// Exercise 2: The Dice Table
 if (choice == 2 || choice == 4)
 {
-    // Exercise 2 placeholder
+    Console.WriteLine("=== Exercise 2: The Dice Table ===");
+
+    int rollCount = 0;
+    int winCount = 0;
+    string rollAgain = "";
+
+    // do while: the player came to roll, so the body has to run once before there is anything to ask about rolling again.
+    do
+    {
+        rollCount++;
+        int die1 = rng.Next(1, 7);
+        int die2 = rng.Next(1, 7);
+        int total = die1 + die2;
+
+        Console.Write($"Roll {rollCount}: {die1} and {die2}, total {total}.");
+
+        // Specific snake eyes condition checked before general doubles
+        if (die1 == 1 && die2 == 1)
+        {
+            Console.WriteLine(" Snake eyes.");
+        }
+        else if (die1 == die2)
+        {
+            Console.WriteLine(" Doubles!");
+        }
+        else if (total == 7 || total == 11)
+        {
+            Console.WriteLine(" A winner.");
+        }
+        else
+        {
+            Console.WriteLine();
+        }
+
+        if (total == 7 || total == 11)
+        {
+            winCount++;
+        }
+
+        Console.Write("Roll again? (y/n): ");
+        rollAgain = Console.ReadLine();
+
+    } while (rollAgain == "y");
+
+    Console.WriteLine($"You rolled {rollCount} times and won {winCount}.");
 }
 
 if (choice == 3 || choice == 4)
